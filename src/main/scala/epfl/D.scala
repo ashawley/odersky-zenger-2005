@@ -1,7 +1,7 @@
 package epfl
 
 class C {
-  protected var x = 0;
+  protected var x = 0
   def incr: this.type = { x = x + 1; this }
 }
 class D extends C {
